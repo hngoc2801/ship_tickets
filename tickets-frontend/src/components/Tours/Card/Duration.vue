@@ -1,10 +1,10 @@
 <template>
   <v-row no-gutters>
     <v-col class="d-flex align-center">
-      <v-icon style="font-size: 1.9em" class="primary--text pr-2"
+      <!-- <v-icon style="font-size: 1.9em" class="primary--text pr-2"
         >mdi-calendar-clock</v-icon
       >
-      <span class="primary--text">{{ dayQuantity }}</span>
+      <span class="primary--text">{{ dayQuantity }}</span> -->
     </v-col>
   </v-row>
 </template>

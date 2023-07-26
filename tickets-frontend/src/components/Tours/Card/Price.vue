@@ -56,7 +56,7 @@
     border-bottom: 0.15em solid #ff73006c;
     content: '';
     left: 0;
-    /* margin-top: calc(0.125em / 2 * -1); */
+    margin-top: calc(0.75em / 2 * -1);
     position: absolute;
     right: 0;
     top: 45%;

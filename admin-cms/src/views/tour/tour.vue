@@ -33,11 +33,7 @@
           <span>{{ scope.row.max_slot }}</span>
         </template>
       </el-table-column>
-      <el-table-column align="center" label="Số lượng hiện tại">
-        <template slot-scope="scope">
-          <span>{{ scope.row.slot }}</span>
-        </template>
-      </el-table-column>
+
 
       <el-table-column
         label="Hoạt động"
@@ -97,19 +93,7 @@
             label="Range"
           />
         </el-form-item>
-        <el-form-item label="Số lượng hiện tại" prop="title">
-          <el-input v-model="tour.slot" type="number" step="1" label="" />
-        </el-form-item>
-        <el-form-item label="Thứ hạng" prop="title">
-          <el-input
-            v-model="tour.hotel_star"
-            type="number"
-            step="1"
-            :min="1"
-            :max="5"
-            label=""
-          />
-        </el-form-item>
+
         <el-form-item label="Gía vé người lớn" prop="title">
           <el-input
             v-model="tour.price.adult"

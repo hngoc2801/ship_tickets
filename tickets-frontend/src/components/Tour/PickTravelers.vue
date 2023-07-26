@@ -2,7 +2,7 @@
   <div>
     <v-row align="center" class="text-body-2">
       <v-col>
-        <span>{{ adultsQuantity }} Trẻ nhỏ</span>
+        <span>{{ adultsQuantity }}</span>
       </v-col>
       <v-col>
         <span class="pr-2">x</span>
@@ -58,7 +58,7 @@
       <v-card>
         <v-card-title class="text-h5 grey lighten-2"> Thanh toán </v-card-title>
         <v-card-text>
-          <v-img src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t1.15752-9/362857632_1300042507284280_1842828265524268420_n.png?_nc_cat=103&cb=99be929b-59f725be&ccb=1-7&_nc_sid=ae9488&_nc_ohc=LsaGFZYthGIAX97dYs2&_nc_ht=scontent.fsgn2-9.fna&oh=03_AdSzHLgQnQUx5N-Fj7GWnMVdzEUwgxl_Wf721f8c_XyfWQ&oe=64E6955C" max-width="690"></v-img>
+          <v-img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.15752-9/363305705_2279522055575263_4244699414063210188_n.jpg?_nc_cat=110&cb=99be929b-59f725be&ccb=1-7&_nc_sid=ae9488&_nc_ohc=k2g21BNToh8AX9x5FFB&_nc_ht=scontent.fhan2-4.fna&oh=03_AdQwAKAXHREqYemcGu4ROOHeamowzW6Ozly-0AgiT-1CMw&oe=64E89909" max-width="690"></v-img>
           Nội dung thanh toán:mã đặt hàng {{ orderCode }}
           <br>Bạn đã đặt vé thành công với mã đặt hàng {{ orderCode }}.
         </v-card-text>
@@ -118,10 +118,10 @@
     }),
     computed: {
       adultsQuantity() {
-        return this.adults+ ' Trẻ em';
+        return this.adults+ ' Người lớn';
       },
       childrenQuantity() {
-        return this.children+ ' Người lớn';
+        return this.children+ ' Trẻ em';
       },
       ...mapGetters(['currentUser']),
     },

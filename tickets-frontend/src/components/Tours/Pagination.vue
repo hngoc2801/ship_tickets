@@ -15,10 +15,6 @@
       >
         - {{ tourEnd }}</span
       >
-      của
-      <span class="font-weight-medium secondary--text text--darken-1">{{
-        total
-      }}</span>
     </div>
     <v-pagination
       v-if="!noButton"

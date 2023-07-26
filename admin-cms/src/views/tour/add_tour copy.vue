@@ -34,16 +34,7 @@
         />
       </el-form-item>
 
-      <el-form-item label="Thứ hạng" prop="title">
-        <el-input
-          v-model="tour.hotel_star"
-          type="number"
-          step="1"
-          :min="1"
-          :max="5"
-          label=""
-        />
-      </el-form-item>
+
       <el-form-item label="Tên tàu" prop="title">
         <el-input v-model="tour.vehicle" />
       </el-form-item>

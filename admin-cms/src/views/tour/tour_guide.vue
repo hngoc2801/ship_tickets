@@ -51,10 +51,10 @@
         <el-form-item label="Tên" prop="title">
           <el-input v-model="tourGuide.name" />
         </el-form-item>
-        <el-form-item label="Địa chỉ" prop="description">
+        <el-form-item label="Số điện thoại" prop="description">
           <el-input v-model="tourGuide.phone_number" />
         </el-form-item>
-        <el-form-item label="Số điện thoại" prop="description">
+        <el-form-item label="Địa chỉ" prop="description">
           <el-input v-model="tourGuide.address" />
         </el-form-item>
       </el-form>

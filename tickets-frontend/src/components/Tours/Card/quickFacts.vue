@@ -19,7 +19,7 @@
       v-on="$listeners"
     />
     <HUMGDuration class="py-2" :duration="tour.range" />
-    <HUMGPrice :old-price="tour.price.adult + 10" :price="tour.price.adult" />
+    <HUMGPrice :old-price="tour.price.adult * 1.5 " :price="tour.price.adult" />
   </v-container>
 </template>
 

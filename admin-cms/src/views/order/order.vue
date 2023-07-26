@@ -10,15 +10,15 @@
     >
       <el-table-column align="center" label="Mã" width="95">
         <template slot-scope="scope">
-          {{ scope.$index }}
+          {{ scope.row.id }}
         </template>
       </el-table-column>
-      <el-table-column align="center" label="Tên chuyến tham quan">
+      <el-table-column align="center" label="Điểm đến">
         <template slot-scope="scope">
           {{ scope.row.tour.name }}
         </template>
       </el-table-column>
-      <el-table-column align="center" label="username">
+      <el-table-column align="center" label="Tên tài khoản">
         <template slot-scope="scope">
           {{ scope.row.user.username }}
         </template>
@@ -60,9 +60,6 @@
         class-name="small-padding fixed-width"
       >
         <template slot-scope="scope">
-          <el-button type="primary" size="mini" @click="accept(scope.$index)">
-            Accept
-          </el-button>
           <el-button
             size="mini"
             type="danger"

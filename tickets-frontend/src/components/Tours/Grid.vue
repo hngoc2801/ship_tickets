@@ -96,7 +96,7 @@
     computed: {
       ...mapGetters(['isToursLoading', 'tickets', 'total', 'returned']),
       tourQuantity() {
-        return this.total + ' vé tàu ';
+        return this.total  + ' vé tàu ';
       },
       pageQuantity() {
         return Math.ceil(this.total / APP_ITEMS_PER_PAGE);

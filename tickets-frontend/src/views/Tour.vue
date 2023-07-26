@@ -155,8 +155,10 @@
           await orderApi
             .checkBookTour(this.tour.id, this.currentUser.id)
             .then((response) => {
-              if (response.status === 200) {
-                if (response.data.message) {
+              console.log(this.tour.id);
+              console.log(this.currentUser.id);
+              if (response.status === 200||response.status === 204) {
+                if (response.data.code) {
                   this.dialog1 = true;
                 } else {
                   Swal.fire({

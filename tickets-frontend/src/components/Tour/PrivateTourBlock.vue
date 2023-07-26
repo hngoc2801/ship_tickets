@@ -51,6 +51,11 @@
           title: 'Nhân viên',
           content: `${this.item.tour_guide.name}`,
         },
+        {
+          icon: 'mdi-ferry',
+          title: 'Tên tàu',
+          content: `${this.item.vehicle}`,
+        },
       ]
     },
     data: () => ({

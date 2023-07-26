@@ -9,7 +9,7 @@
         >
           <HUMGSavingRibbon
             :price="tour.price.adult"
-            :old-price="tour.price.adult + 10"
+            :old-price="tour.price.adult "
         /></v-img>
         <HUMGCardName :name="tour.dest.name" />
       </router-link>
